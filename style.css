@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+}
+body{
+    background-color: white;
+}
+.main{
+    height: 149vh;
+    width: 100%;
+    background-image: url('img/anasayfaa.jpeg');
+    background-position: center;
+}
+.main:hover{
+    filter: brightness(60%);
+    transition: 1.5s;
+}
+.main:hover .my{
+    display: inline;
+    filter: brightness(95%);
+    transition: 2s;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background:#f779a1;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 2%;
+}
+.logo{
+    cursor: pointer;
+    color: white;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 27px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f6bcce;
+    transition: .4s;
+    transform: scale(1.2);
+}
+nav span{
+    color: white;
+}
+.my{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: none;
+}
+.my h3{
+    color: #f779a1;
+    font-size: 45px;
+    margin: 20px 0px 20px;
+}
+.my h4{
+    color: white;
+    background-color: #f779a1;
+    font-size: 25px;
+}
+.yazilarim{
+    background:#ffffff;
+    width: 100%;
+    padding: 100px 0px;
+}
+.baslik h1{
+    color:white;
+    font-size: 35px;
+    width: 1130px;
+    margin: 400px auto;
+    text-align: center;
+}
+.yazi-panel{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 400px;
+    text-align: justify;
+}
+.yazi-panel-2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height:400px;
+}
+.post-baslik{
+    text-align: center;
+    margin: 15px;
+    font-size: 15px;
+    color:#f779a1;
+}
+.icerik{
+    height: 690px;
+    width: 1300px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    margin: 15px;
+    left: 90px;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    color: #f779a1;
+    text-align: center;
+    
+}
+.icerik a{
+    text-decoration: none;
+    color:white;
+}
+.icerik p{
+    text-align: justify;
+}
+.icerik img{
+    height: 140px;
+    width: 140px;
+    border-radius: 40px;
+    margin: 10px;
+    float: left;
+}
+.icerik h4{
+    color: #f779a1;
+    font-size: 28px;
+    text-align: center;
+}
+.buton{
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    border: 10px solid transparent;
+    border-radius: 10px;
+    background: #f779a1;
+}
+
+.iletisim{
+    width: 100%;
+    height: 800px;
+    font-size: 22px;
+    background: white; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.iletisim p{
+    color:#f779a1;
+    text-align: left;
+    font-size: 30px;
+}
+.iletisim input{
+    height: 35px;
+    width: 205px;
+    background-color:white;
+    color: #f779a1;
+    border: 1px solid #f779a1;
+}
+.iletisim input:focus{
+    outline: none !important;
+}
+.iletisim textarea{
+    background-color: white;
+    color: #f779a1;
+    border: 1px solid #f779a1;
+}
+.iletisim textarea:focus{
+    outline: none !important;
+}
+.iletisim button{
+    height: 45px;
+    width: 100px;
+    background: #f779a1;
+    color:white;
+    border: none;
+}
+.iletisim table{
+    color:#f779a1;
+    text-align: right;
+}
+.iletisim table .mesajj{
+    padding-top: 0px;
+    vertical-align: top;
+}
+.detay{
+    display: none;
+    position: absolute;
+    background-color: White;
+    opacity: 0.5;
+}
+.hakkimda{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+.hakkimda img{
+    height: auto;
+    width: 550px;
+    border-radius: 100px;
+    border: 4px solid #f779a1;
+}
+.hakkimda img:hover{
+    filter: brightness(50%);
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+.hakkimda-txt{
+    width: 550px;
+}
+.main-hakkimda{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hakkimda-txt h1{
+    color: #f779a1;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hakkimda-txt p{
+    color: #f779a1;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background: white;
+    color: #f779a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sosyal-medya{
+    display: flex;
+}
+.sosyal-medya a{
+    background: #eae6ea;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 45%;
+    margin: 22px 10px;
+    text-decoration: none;
+}
+.sosyal-medya a:hover{
+    transform: scale(1.2);
+    transition: .2s;
+}
+.onay{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    color: #f779a1;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.onay a{
+    text-decoration: none;
+    color: #f98fb0;
+}
+.onay a:hover{
+    color: #f6bcce;
+    transition: 0.5s;
+}
