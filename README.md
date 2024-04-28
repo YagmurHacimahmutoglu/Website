@@ -1,2 +1,2 @@
 # Website
-Kendim için oluşturduğum web site
+Kendim için oluşturduğum website
